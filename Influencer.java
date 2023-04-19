@@ -54,11 +54,11 @@ public class Influencer {
         String name,
         String channel,
         String country,
-        int li,
-        int pt,
-        int fw,
-        int ct,
-        int vw) {
+        int li, //likes
+        int pt, //posts
+        int fw, //followers
+        int ct, //comments
+        int vw) //views {
         this.name = name;
         this.channel = channel;
         this.country = country;
