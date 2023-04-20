@@ -73,6 +73,12 @@ public class Influencer {
         return name;
     }
 
+    /**
+     *@return topic returns the topic
+     */
+    public String getTopic() {
+        return topic;
+    }
 
     /**
      * @return channel
