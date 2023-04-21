@@ -21,8 +21,11 @@ public class Input {
 
         if (args.length == 1) {
             ChannelReader reader = new ChannelReader(args[0]);
+            LinkedList<String> channelView = reader.getChannels();
+            
         }
         ChannelReader reader = new ChannelReader("SampleInput1_2022.csv");
+        LinkedList<String> channelView = reader.getChannels();
 
     }
 }
