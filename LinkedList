@@ -444,5 +444,42 @@
 
         return false;
     }
+    private class DLListIterator<A> implements Iterator<E> {
+
+        private Node<E> next;
+
+        /**
+         * Creates a new DLListIterator
+         */
+        public DLListIterator() {
+            this.next = head;
+        }
+
+
+        /**
+         * Checks if there are more elements in the list
+         *
+         * @return true if there are more elements in the list
+         */
+        public boolean hasNext() {
+            return next.next().getData() != null;
+        }
+
+
+        /**
+         * Gets the next value in the list
+         *
+         * @return the next value
+         * @throws NoSuchElementException
+         *             if there are no nodes left in the list
+         */
+        @Override
+        public E next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
+            next = next.next();
+            return next.getData();
+        }
 
 }
