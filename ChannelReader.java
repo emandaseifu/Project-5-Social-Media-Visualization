@@ -54,7 +54,9 @@ public class ChannelReader {
             }
         }
     }
-
+    /**
+    * This method is a getter that accesses the channel names from the Influencer class
+    */
     public LinkedList<String> getChannels() {
         return channels;
     }
