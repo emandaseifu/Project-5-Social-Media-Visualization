@@ -1,8 +1,15 @@
+package mediavis;
+
 /**
+ * The months class 
+ *
+ * @author Emanda Seifu
  * @author Shreyas Kunaparaju
- * @version 4/20/2023
-  */
-public class Months {
+ * @author Arnav Sharma
+ * @version 04.28.2023
+ */
+public class Months 
+{
 /*
  * sets each month to an integer value to be used in the Influencer class
  */
