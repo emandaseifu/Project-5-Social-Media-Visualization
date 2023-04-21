@@ -16,7 +16,9 @@ import mediavis.Statistics;
 
 public class EngagementCalculator {
     public static final int RATING;
-    
+    /*
+     * initializes all of the variables needed to zero for later use
+     */
     double rate = 0;
     double reach = 0;
     double sum = 0;
