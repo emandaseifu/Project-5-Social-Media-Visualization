@@ -1,19 +1,18 @@
-package prj5;
+package mediavis;
 
 /**
  * The Engagement Calculator class 
  *
  * @author Emanda Seifu
- * @author 
- * @author 
+ * @author Shreyas Kunaparaju
+ * @author Arnav Sharma
  * @version 04.28.2023
  */
 
 import java.text.DecimalFormat;
 import list.AList;
-import prj5.EngagementReader;
-import prj5.Influencer;
-import prj5.Statistics;
+import mediavis.Influencer;
+import mediavis.Statistics;
 
 public class EngagementCalculator {
     public static final int RATING;
