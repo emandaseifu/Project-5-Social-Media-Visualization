@@ -1,14 +1,13 @@
-package prj5;
-//import bsh.This;
+package mediavis;
 
 /**
- * The Influencer class holds the 
- * names of influencers and their 
+ * The Influencer class holds the
+ * names of influencers and their
  * social media accounts.
  *
  * @author Emanda Seifu
- * @author 
- * @author 
+ * @author Shreyas Kunaparaju
+ * @author Arnav Sharma
  * @version 04.28.2023
  */
 public class Influencer {
@@ -71,12 +70,14 @@ public class Influencer {
         return name;
     }
 
+
     /**
-     *@return topic returns the topic
+     * @return topic returns the topic
      */
     public String getTopic() {
         return topic;
     }
+
 
     /**
      * @return channel
@@ -94,6 +95,7 @@ public class Influencer {
     public String getCountry() {
         return country;
     }
+
 
     /**
      * @return myArray
@@ -136,7 +138,7 @@ public class Influencer {
 
 
     /**
-     * Sorts the rate of the specific 
+     * Sorts the rate of the specific
      * influencer by calculating their statistics
      */
     public void rateSort(EngagementCalculator calc, Statistics other) {
