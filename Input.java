@@ -30,7 +30,7 @@ public class Input {
         this.filename = filename;
     }
     
-    public static List<Influencer> read(String filename) throws IOException {
+    public List<Influencer> read(String filename) throws IOException {
         List<Influencer> influencers = new ArrayList<>();
 
         try (ChannelReader reader = new ChannelReader(new FileReader(filename))) {
@@ -47,7 +47,6 @@ public class Input {
                 int followers = Integer.parseInt(arr[6]);
                 int comments = Integer.parseInt(arr[7]);
                 int views = Integer.parseInt(arr[8]);
-
                 // Create a new influencer object and add it to the list
                 Statistics[] stats = new Statistics[3];
                 stats[0] = new Statistics(Months.JANUARY, comments, followers, likes, posts, views);
