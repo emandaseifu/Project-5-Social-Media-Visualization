@@ -4,14 +4,12 @@ package mediavis;
  * The Statistics class 
  *
  * @author Emanda Seifu
- * @author 
- * @author 
+ * @author Shreyas Kunaparaju
+ * @author Arnav Sharma
  * @version 04.28.2023
  */
-
 public class Statistics implements Comparable<Statistics> {
 
-    
     private int likes;
     private int posts;
     private int followers;
@@ -27,10 +25,8 @@ public class Statistics implements Comparable<Statistics> {
         comments = ct;
         views = vw;
         months = mon;
-
     }
     
-
     public int getLikes() {
         return likes;
     }
