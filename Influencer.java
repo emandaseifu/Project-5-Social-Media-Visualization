@@ -10,8 +10,6 @@ package prj5;
  * @author 
  * @author 
  * @version 04.28.2023
- * @version 04.28.2023
- * @version 04.28.2023
  */
 public class Influencer {
 
