@@ -3,7 +3,6 @@
      * @author Emanda Seifu
      * @version 4/20/2023
      */
-    package linkedlist;
     
     public class SinglyLinkedList<E> implements LList<E> {
 
