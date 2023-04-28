@@ -28,4 +28,8 @@ public class Input {
         LinkedList<String> channelView = reader.getChannels();
 
     }
+    for (String channel: channelView)
+    {
+        System.out.println(channel);
+    }
 }
